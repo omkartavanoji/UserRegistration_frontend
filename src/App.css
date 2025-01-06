@@ -1,0 +1,87 @@
+  #nav {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #nav button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  #nav button:hover {
+    background-color: #0056b3;
+  }
+
+  #adduser {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #adduser h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  #adduser form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  #adduser form div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #adduser label {
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 500;
+  }
+
+  #adduser input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  #adduser input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+
+  #adduser button[type="submit"] {
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+
+  #adduser button[type="submit"]:hover {
+    background-color: #218838;
+  }
+
+  .text-4xl {
+    font-size: 2.25rem;
+    color: #333;
+    margin: 20px 0;
+    font-weight: bold;
+  }
