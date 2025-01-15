@@ -22,7 +22,7 @@ const App = () => {
   return (
     <>
       <h1 className="text-4xl text-center">Welcome To User Registration</h1>
-      <RouterProvider router={router}></RouterProvider>
+      <RouterProvider router={router}></RouterProvider>  
     </>
   )
 }
